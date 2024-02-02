@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+    height: 100vh;
+}
+
+.header {
+    top: 0px;
+    width: 100%;
+    border: 0.4px solid #ECECEC;
+    border-width: 0 0 2px 0;
+    padding: 20px 100px 20px 100px;
+    background-color: #ffffff;
+    overflow: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-img {
+    width: 100%;
+    min-width: 100px;
+}
+
+.navbar-brand {
+    width: 12%;
+}
+.logo-header-title{
+    color:#000000;
+    margin: auto 6px;
+}
+.contact-us-btn,
+.send-op-btn {
+    background-color: #B795FF;
+    border-width: 0;
+    border-radius: 24px;
+    color: #000000;
+    padding: 12px;
+    cursor: pointer;
+    outline: none;
+}
+.reviews-out-container{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.top-img{
+    border-radius: 50%;
+    width: 590px;
+    height: 490px;
+}
+.reviews-in-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.reviews-img-container{
+    display: flex;
+    align-items: center;
+}
+.reviews-cnt-container{
+    display: flex;
+    align-items: center;
+}
+.rating{
+    margin: 0 0 0 8px;
+}
+.review-cnt{
+    margin-left: 4px;
+}
+.features-list-container{
+    list-style-type: none;
+    padding: 0;
+}
+.book-img-features-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.feature-heading,
+.review-cnt{
+    text-align: right;
+}
+.profile-img{
+    border-radius: 40px;
+}
+.profile-img2{
+    border-radius: 40px;
+    margin-left: -22px;
+}
+.profile-span-img2{
+    background-color: #B795FF;
+    padding: 17px 15px 17px 15px;
+    border-radius: 40px;
+    margin-left: -22px;
+}
+.specifications-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.specification-list-container{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding:0;
+    margin-top:60px;
+}
+.spec-list-item{
+    width: 20%;
+    margin: 0 30px 50px 0;
+    background-image: linear-gradient(to bottom, white, #B795FF);
+    padding: 1.4px;
+    border-radius: 8px;
+}
+.list-in-item{
+    background-color: white;
+    padding: 18px;
+    border-radius: 8px;
+}
+.specs-heading{
+    margin-top: 18px;
+}
+.specs-description{
+    margin: 18px 0 0 0;
+}
+.non-top-heading{
+    width: 50%;
+}
+.hide {
+    display: none;
+}
+.specs-img{
+    width: 60px;
+}
+
+.footer-container {
+    width: 100%;
+    bottom: 0;
+    background-color: #000000;
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+}
+
+.footer-nav-img {
+    width: 40px;
+}
+.content-container{
+    padding: 30px 100px 30px 100px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.top-containers{
+    display: flex;
+}
+.top-content-container{
+    width: 50%;
+}
+.top-content{
+    color: #00000055;
+    margin: 30px 0 30px 0;
+}
+.appointment-btn{
+    margin:0;
+    border-radius: 38px;
+    padding:12px;
+}
+.footer-logo-lists-containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo-title{
+    color: #ffffff;
+    margin: auto 6px;
+}
+.footer-page-wise-list-container{
+    list-style-type: none;
+    padding: 0;
+}
+.footer-list-item-heading,
+.copywrite{
+    color: #ffffff;
+}
+.footer-list-item-content{
+    opacity: 0.45;
+    color: #ffffff;
+}
+.copywrite-contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mid-icon{
+    margin: 0 14px 0 14px;
+}
+.specs-description{
+    color: #00000045;
+    width: 50%;
+}
+.name-input-containers,
+.email-phoneNumber-containers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 12px 0 12px;
+}
+.form-container{
+    width: 50%;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    background-color: white;
+    color: #000000;
+    position: relative;
+    bottom: -20px;
+    padding: 6px;
+    margin-left: 12px;
+}
+.inputEl{
+    border: 0.5px solid #000000;
+    padding: 14px;
+    border-radius: 14px;
+    width: 100%;
+}
+.important{
+    color: #EB0000;
+}
+.send-op-btn{
+    align-self: flex-start;
+    margin: 20px 0 0 12px ;
+}
+.register-appointment-container,
+.case-studies-container,
+.client-review-out-container,
+.specifications-container,
+.causes-for-anxiety-container{
+    margin-top:100px;
+}
+.actual-case-study-in-container{
+    display: flex;
+    align-items: flex-end;
+    background-color: #EEE5FF;
+    border-radius: 16px;
+    height: 250px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+.actual-case-study-container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: flex-end;
+}
+.case-study-img{
+    width: 190px;
+    height: 280px;
+    border-radius: 12px;
+}
+.case-study-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-para{
+    margin: 0;
+    color: #000000;
+    opacity: 0.45;
+}
+.content-heading{
+    margin: 10px 0 6px 0;
+}
+.client-reviews-container{
+    display: flex;
+    background-color: #EEE5FF;
+    padding: 80px;
+    border-radius: 18px;
+    align-items: center;
+    margin-top: 50px;
+}
+.client-img{
+    border-radius: 50%;
+}
+.client-img-container{
+    display: flex;
+    align-items: flex-end;
+}
+.client-review-container{
+    width: 40%;
+    margin-left: 2%;
+}
+.client-heading,
+.specs-description{
+    width: 100%;
+}
+.client-name,
+.client-designation{
+    margin:12px 0 12px 0;
+}
+.client-designation{
+    color: #00000045;
+}
+.review-description{
+    color: #00000089;
+}
+.specification-list-container{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.symptoms-img{
+    height: 360px;
+}
+.causes-image-container{
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px){
+    .header{
+        padding: 12px 22px 12px 22px;
+    }
+    .content-container{
+        padding: 20px 40px 20px 40px;
+    }
+    .top-containers{
+        flex-direction: column;
+    }
+    .top-content-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .top-heading{
+        width: 100%;
+        text-align: center;
+    }
+    .reviews-out-container{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .book-img-features-container{
+        flex-direction: column;
+        margin-top: 40px;
+        align-items: center;
+    }
+    .top-img{
+        width: 300px;
+        height:300px;
+        margin: 50px 0 50px 0;
+    }
+    .feature-heading,
+    .review-cnt{
+        text-align: center;
+    }
+    .specification-list-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .spec-list-item{
+        width: 80%;
+    }
+    .list-in-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .symptoms-img{
+        height: 300px;
+    }
+    .client-reviews-container{
+        flex-direction: column;
+    }
+    .client-img{
+        width: 200px;
+    }
+    .client-img2{
+        display: none;
+    }
+    .client-review-container{
+        width: 100%;
+    }
+    .actual-case-study-in-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .actual-case-study-container{
+        height: auto;
+    }
+    .case-study-container{
+        margin-top: 30px;
+    }
+    .form-container{
+        width: 100%;
+    }
+    .name-input-containers,
+    .email-phoneNumber-containers{
+        flex-direction: column;
+    }
+    .input-container{
+        margin: 0;
+    }
+
+    .footer-container{
+        width: 1000px;
+    }
+    .contact-us-btn,
+    .send-op-btn{
+        margin-left: 32px;
+    }
+}
