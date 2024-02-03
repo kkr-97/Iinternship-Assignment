@@ -1,4 +1,4 @@
-function onSubmitConsultationForm(){
+function onSubmitConsultationForm() {
     var firstName = document.getElementById("firstName");
     var lastName = document.getElementById("lastName");
     var emailAddress = document.getElementById("emailAddress");
@@ -6,7 +6,7 @@ function onSubmitConsultationForm(){
     var message = document.getElementById("message");
     var address = document.getElementById("address");
 
-    function validateInputs(){
+    function validateInputs() {
         if (firstName.value == "" || lastName.value == "" || emailAddress.value == "" || phoneNumber.value == "" || message.value == "" || address.value == "") {
             document.getElementById("errMsg").style.display = "flex";
             return false;
@@ -15,14 +15,14 @@ function onSubmitConsultationForm(){
         return true;
     }
 
-    if(validateInputs()) {
-            firstName.value = "";
-            lastName.value = "";
-            emailAddress.value = "";
-            phoneNumber.value = "";
-            message.value = "";
-            address.value = "";
+    if (validateInputs()) {
+        firstName.value = "";
+        lastName.value = "";
+        emailAddress.value = "";
+        phoneNumber.value = "";
+        message.value = "";
+        address.value = "";
 
-            alert('Your consultation request has been sent successfully!');
-        }
+        alert('Your consultation request has been sent successfully!');
+    }
 }
