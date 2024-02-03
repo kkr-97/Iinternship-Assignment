@@ -20,11 +20,15 @@ Register Appointment: Allows users to register for consultations.
 Footer: Contains links to different pages, social media icons, and company information.
 
 
+
 **Usage**
+
 To view the website, simply open the index.html file in a web browser. The website is fully responsive and can adapt to different screen sizes.
 
 
+
 **Credits**
+
 Bootstrap: Used for styling.
 Lorem Picsum: Used for placeholder images.
 
