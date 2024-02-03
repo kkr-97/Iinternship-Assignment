@@ -200,7 +200,7 @@
     width: 100%;
     bottom: 0;
     background-color: #000000;
-    padding: 10px 60px 20px 40px;
+    padding: 10px 100px 20px 100px;
     display: flex;
     flex-direction: column;
     overflow: none;
@@ -458,6 +458,9 @@ label {
     .header {
         padding: 12px 22px 12px 22px;
     }
+    .footer-container{
+        padding: 18px 28px  18px 28px;
+    }
 
     .navbar-nav {
         margin-top: 18px;
@@ -597,5 +600,6 @@ label {
     
     .copywrite-contact-container{
         flex-direction: column;
+        margin-top: 12px;
     }
 }
