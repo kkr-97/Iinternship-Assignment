@@ -1,6 +1,6 @@
 **Welbalar Company Internship Assignment**
 
-This repository contains the HTML code for the internship pre-assessment project completed for Welbalar Company. The project is focused on creating a website layout for a counseling and therapy service called "Raft."
+The project is focused on creating a landing page website layout for a counseling and therapy service called "Raft."
 
 
 
