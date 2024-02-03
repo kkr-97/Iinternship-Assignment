@@ -11,7 +11,7 @@ The project consists of an HTML along with associated CSS and JavaScript files. 
 
 Header: Contains the navigation menu with links to different sections of the website.
 
-Top Content: Highlights the main services offered by Raft.
+Main Content: Highlights the main services offered by Raft.
 
 Reviews: Displays customer reviews and ratings.
 
@@ -43,6 +43,7 @@ To view the website, simply open the index.html file in a web browser. The websi
 **Credits**
 
 Bootstrap: Used for styling.
+
 Lorem Picsum: Used for placeholder images.
 
 
