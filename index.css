@@ -13,7 +13,7 @@
     width: 100%;
     border: 0.4px solid #ECECEC;
     border-width: 0 0 2px 0;
-    padding: 20px 100px 20px 100px;
+    padding: 10px 100px 10px 90px;
     background-color: #ffffff;
     overflow: none;
 }
@@ -24,27 +24,40 @@
     width: 100%;
 }
 
-.nav-img {
-    width: 100%;
-    min-width: 100px;
-}
-
 .navbar-brand {
     width: 12%;
 }
+.nav-link:hover{
+    color:#B795FF !important;
+}
+.active{
+    color: darkorchid !important;
+}
+.contact-us-btn,
+.send-op-btn{
+    margin-left: 32px;
+    }
 .logo-header-title{
     color:#000000;
     margin: auto 6px;
+    font-size: 18px;
 }
 .contact-us-btn,
 .send-op-btn {
     background-color: #B795FF;
-    border-width: 0;
+    border: 1px solid #B795FF;
     border-radius: 24px;
     color: #000000;
-    padding: 12px;
+    padding: 10px;
     cursor: pointer;
     outline: none;
+}
+.contact-us-btn:hover,
+.send-op-btn:hover{
+    transition: 0.2s;
+    background-color: white;
+    color: #B795FF;
+    border: 1px solid #B795ff;
 }
 .reviews-out-container{
     width: 50%;
@@ -114,26 +127,35 @@
     padding:0;
     margin-top:60px;
 }
-.spec-list-item{
-    width: 20%;
+.spec-list-item {
+    width: 22%;
     margin: 0 30px 50px 0;
     background-image: linear-gradient(to bottom, white, #B795FF);
     padding: 1.4px;
     border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(black, .1),
 }
+
 .list-in-item{
     background-color: white;
     padding: 18px;
     border-radius: 8px;
 }
+.list-in-item:hover{
+    transition: 0.8s;
+    background-color: transparent
+}
 .specs-heading{
     margin-top: 18px;
+    width: 100%;
 }
 .specs-description{
     margin: 18px 0 0 0;
+    width: 100%;
 }
-.non-top-heading{
-    width: 50%;
+.top-heading{
+    width: 75%;
+    font-size: 30px;
 }
 .hide {
     display: none;
@@ -153,7 +175,8 @@
 }
 
 .footer-nav-img {
-    width: 40px;
+    width: 35px;
+    height: 35px;
 }
 .content-container{
     padding: 30px 100px 30px 100px;
@@ -170,6 +193,7 @@
 .top-content{
     color: #00000055;
     margin: 30px 0 30px 0;
+    font-size: 17px;
 }
 .appointment-btn{
     margin:0;
@@ -196,10 +220,14 @@
 .footer-list-item-heading,
 .copywrite{
     color: #ffffff;
+    margin-bottom: 6px;
+    font-size: 12px;
 }
 .footer-list-item-content{
     opacity: 0.45;
+    margin: 6px 0 6px 0;
     color: #ffffff;
+    font-size: 12px;
 }
 .copywrite-contact-container{
     display: flex;
@@ -208,6 +236,7 @@
 }
 .mid-icon{
     margin: 0 14px 0 14px;
+    font-size: 12px;
 }
 .specs-description{
     color: #00000045;
@@ -245,6 +274,7 @@ label{
     padding: 14px;
     border-radius: 14px;
     width: 100%;
+    outline: none;
 }
 .important{
     color: #EB0000;
@@ -302,6 +332,9 @@ label{
     align-items: center;
     margin-top: 50px;
 }
+.review-content{
+    margin-bottom: 4px;
+}
 .client-img{
     border-radius: 50%;
 }
@@ -341,10 +374,18 @@ label{
     display: flex;
     justify-content: center;
 }
+.err-msg{
+    color:#EB0000;
+    font-size: 14px;
+    display: none;
+}
 
 @media (max-width: 767px){
     .header{
         padding: 12px 22px 12px 22px;
+    }
+    .navbar-nav{
+        margin-top: 18px;
     }
     .content-container{
         padding: 20px 40px 20px 40px;
@@ -368,6 +409,14 @@ label{
         flex-direction: column;
         margin-top: 40px;
         align-items: center;
+    }
+    .contact-us-btn{
+        margin: 16px 0 0 0;
+        align-self: flex-end;
+    }
+    .appointment-btn{
+        margin: 0;
+        align-self: center;
     }
     .top-img{
         width: 300px;
@@ -431,9 +480,5 @@ label{
 
     .footer-container{
         width: 1000px;
-    }
-    .contact-us-btn,
-    .send-op-btn{
-        margin-left: 32px;
     }
 }

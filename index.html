@@ -8,6 +8,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -85,21 +86,21 @@
                     <li class="spec-list-item">
                         <div class="list-in-item">
                             <img src="./resources/qualityTherapy.png" alt="specs" class="specs-img" />
-                            <h3 class="specs-heading">Quality Theraphy</h3>
+                            <h4 class="specs-heading">Quality Theraphy</h4>
                             <p class="specs-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis</p>
                         </div>
                     </li>
                     <li class="spec-list-item">
                         <div class="list-in-item">
                             <img src="./resources/Mask couple therapy.png" alt="specs" class="specs-img" />
-                            <h3 class="specs-heading">Couple Theraphy</h3>
+                            <h4 class="specs-heading">Couple Theraphy</h4>
                             <p class="specs-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis</p>
                         </div>
                     </li>
                     <li class="spec-list-item">
                         <div class="list-in-item">
                             <img src="./resources/qualityTherapy.png" alt="specs" class="specs-img" />
-                            <h3 class="specs-heading">Group Theraphy</h3>
+                            <h4 class="specs-heading">Group Theraphy</h4>
                             <p class="specs-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis</p>
                         </div>
                     </li>
@@ -113,7 +114,7 @@
                 </div>
             </div>
             <div class="client-review-out-container">
-                <h1 class="top-heading client-heading">Our Clients and Their Positive Experiences with Our Psychology Consultation Services</h1>
+                <h1 class="top-heading">Our Clients and Their Positive Experiences with Our Psychology Consultation Services</h1>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -136,8 +137,8 @@
                                 <img src="https://picsum.photos/74/74" class="client-img client-img2" alt="client-img"/>
                             </div>
                             <div class="client-review-container">
-                                <h2 class="client-name">Samntha Carter</h2>
-                                <p class="client-designation">Former Merck CEO and investor at Yuri</p>
+                                <h2 class="client-name">Malla Reddy</h2>
+                                <p class="client-designation">Former Merck CEO</p>
                                 <p class="review-description">I can't recommend the psychology consultation services enough. As someone who has struggled with anxiety and self-doubt for years, I was hesitant to try therapy again. But from the very first session, my consultant made me feel heard and understood. She worked with me to identify the root causes of my anxiety and gave me concrete tools to manage it.</p>   
                             </div>
                         </div>
@@ -149,8 +150,8 @@
                                 <img src="https://picsum.photos/74/74" class="client-img" alt="client-img"/>
                             </div>
                             <div class="client-review-container">
-                                <h2 class="client-name">Samntha Carter</h2>
-                                <p class="client-designation">Former Merck CEO and investor at Yuri</p>
+                                <h2 class="client-name">Narasimha Rao</h2>
+                                <p class="client-designation"Iinvestor at Yuri</p>
                                 <p class="review-description">I can't recommend the psychology consultation services enough. As someone who has struggled with anxiety and self-doubt for years, I was hesitant to try therapy again. But from the very first session, my consultant made me feel heard and understood. She worked with me to identify the root causes of my anxiety and gave me concrete tools to manage it.</p>   
                             </div>
                         </div>
@@ -207,18 +208,18 @@
                             <input id="firstName" placeholder="Arya" class="inputEl">
                         </div>
                         <div class="input-container">
-                            <label for="secondName">Last Name <span class="important">*</span></label>
-                            <input id="firstName" placeholder="Demian" class="inputEl">
+                            <label for="lastName">Last Name <span class="important">*</span></label>
+                            <input id="lastName" placeholder="Demian" class="inputEl">
                         </div>
                     </div>
                     <div class="email-phoneNumber-containers">
                         <div class="input-container">
-                            <label for="email">Email Address <span class="important">*</span></label>
-                            <input id="email" placeholder="aryademian@gmail.com" class="inputEl">
+                            <label for="emailAddress">Email Address <span class="important">*</span></label>
+                            <input id="emailAddress" placeholder="aryademian@gmail.com" class="inputEl">
                         </div>
                         <div class="input-container">
-                            <label for="mobile">Phone Number <span class="important">*</span></label>
-                            <input id="mobile" placeholder="+12 345678912" class="inputEl">
+                            <label for="phoneNumber">Phone Number <span class="important">*</span></label>
+                            <input id="phoneNumber" placeholder="+12 345678912" class="inputEl">
                         </div>
                     </div>
                     <div class="input-container">
@@ -226,15 +227,15 @@
                         <input id="address" placeholder="Stree Sutomo Alexander, 14. Norwelgia" class="inputEl">
                     </div>
                     <div class="input-container">
-                        <label for="consultation">Consultation <span class="important">*</span></label>
-                        <textarea id="consultation" placeholder="Write here for your problem" class="inputEl" rows="7" cols="100%"></textarea>
+                        <label for="message">Consultation <span class="important">*</span></label>
+                        <textarea id="message" placeholder="Write here for your problem" class="inputEl" rows="7" cols="100%"></textarea>
                     </div>
-                    <button type="submit" class="send-op-btn">Send Consultation</button>
+                    <button type="submit" id="submitBtn" onclick="onSubmitConsultationForm()" class="send-op-btn">Send Consultation</button>
+                    <p id="errMsg" class="err-msg">* Any field should not be empty!</p>
                 </form>
             </div>
         </div>
-    </div>
-    <footer class="footer-container">
+        <footer class="footer-container">
             <div class="footer-logo-lists-containers">
                 <div class="logo-container">
                     <img src="./resources/logo.png" class="footer-nav-img" />
@@ -335,6 +336,8 @@
                 </div>
             </div>
         </footer>
+    </div>
+    
 </body>
 
 </html>
